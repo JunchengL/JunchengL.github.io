@@ -96,13 +96,17 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="My undertale">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="This post is to remind me of some usefull commands in working.Disk Usage Analyse:1df -hT 1du -sk ./* | sort -n Server swap to max capacity and need to free swap:1swapoff -a &amp;amp;&amp;amp; swapon -a Show f">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Usefull Commands">
+<meta property="og:url" content="http://yoursite.com/2019/04/12/Usefull-Commands/index.html">
 <meta property="og:site_name" content="My undertale">
+<meta property="og:description" content="This post is to remind me of some usefull commands in working.Disk Usage Analyse:1df -hT 1du -sk ./* | sort -n Server swap to max capacity and need to free swap:1swapoff -a &amp;amp;&amp;amp; swapon -a Show f">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-04-12T21:15:26.723Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My undertale">
+<meta name="twitter:title" content="Usefull Commands">
+<meta name="twitter:description" content="This post is to remind me of some usefull commands in working.Disk Usage Analyse:1df -hT 1du -sk ./* | sort -n Server swap to max capacity and need to free swap:1swapoff -a &amp;amp;&amp;amp; swapon -a Show f">
 
 
 
@@ -110,7 +114,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/12/Usefull-Commands/">
 
 
 
@@ -120,7 +124,7 @@
   };
 </script>
 
-  <title>My undertale</title>
+  <title>Usefull Commands | My undertale</title>
   
 
 
@@ -168,8 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -211,7 +214,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -273,9 +276,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -307,10 +310,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/12/Usefull-Commands/" class="post-title-link" itemprop="url">Usefull Commands</a>
+          <h1 class="post-title" itemprop="name headline">Usefull Commands
+
               
             
           </h1>
@@ -374,9 +375,7 @@
       
 
       
-        
-          
-            <h1 id="This-post-is-to-remind-me-of-some-usefull-commands-in-working"><a href="#This-post-is-to-remind-me-of-some-usefull-commands-in-working" class="headerlink" title="This post is to remind me of some usefull commands in working."></a>This post is to remind me of some usefull commands in working.</h1><h2 id="Disk-Usage-Analyse"><a href="#Disk-Usage-Analyse" class="headerlink" title="Disk Usage Analyse:"></a>Disk Usage Analyse:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hT</span><br></pre></td></tr></table></figure>
+        <h1 id="This-post-is-to-remind-me-of-some-usefull-commands-in-working"><a href="#This-post-is-to-remind-me-of-some-usefull-commands-in-working" class="headerlink" title="This post is to remind me of some usefull commands in working."></a>This post is to remind me of some usefull commands in working.</h1><h2 id="Disk-Usage-Analyse"><a href="#Disk-Usage-Analyse" class="headerlink" title="Disk Usage Analyse:"></a>Disk Usage Analyse:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hT</span><br></pre></td></tr></table></figure>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">du -sk ./* | sort -n</span><br></pre></td></tr></table></figure>
 <h2 id="Server-swap-to-max-capacity-and-need-to-free-swap"><a href="#Server-swap-to-max-capacity-and-need-to-free-swap" class="headerlink" title="Server swap to max capacity and need to free swap:"></a>Server swap to max capacity and need to free swap:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">swapoff -a &amp;&amp; swapon -a</span><br></pre></td></tr></table></figure>
 <h2 id="Show-files-in-order"><a href="#Show-files-in-order" class="headerlink" title="Show files in order:"></a>Show files in order:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ls -ltr</span><br></pre></td></tr></table></figure>
@@ -389,8 +388,6 @@
 <h2 id="Analyse-ports"><a href="#Analyse-ports" class="headerlink" title="Analyse ports:"></a>Analyse ports:</h2><p>port 80 is listened?<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -auntp| grep 80</span><br></pre></td></tr></table></figure></p>
 <p>test port 80 on localhost<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nc -vz localhost 80</span><br></pre></td></tr></table></figure></p>
 
-          
-        
       
     </div>
 
@@ -413,155 +410,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/12/Blog-Construction-done/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Juncheng LIU">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="My undertale">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/12/Blog-Construction-done/" class="post-title-link" itemprop="url">Blog Construction done</a>
-              
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
+              <a href="/2019/04/12/Blog-Construction-done/" rel="next" title="Blog Construction done">
+                <i class="fa fa-chevron-left"></i> Blog Construction done
+              </a>
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-04-12 22:32:05 / Modified: 22:32:54" itemprop="dateCreated datePublished" datetime="2019-04-12T22:32:05+02:00">2019-04-12</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Happy To Build My Blog</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -571,14 +441,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -598,8 +469,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -678,6 +558,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#This-post-is-to-remind-me-of-some-usefull-commands-in-working"><span class="nav-number">1.</span> <span class="nav-text">This post is to remind me of some usefull commands in working.</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Disk-Usage-Analyse"><span class="nav-number">1.1.</span> <span class="nav-text">Disk Usage Analyse:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Server-swap-to-max-capacity-and-need-to-free-swap"><span class="nav-number">1.2.</span> <span class="nav-text">Server swap to max capacity and need to free swap:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Show-files-in-order"><span class="nav-number">1.3.</span> <span class="nav-text">Show files in order:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Catch-key-words-with-grep-command"><span class="nav-number">1.4.</span> <span class="nav-text">Catch key words with grep command:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Connexion-in-distance-on-Windows-Server"><span class="nav-number">1.5.</span> <span class="nav-text">Connexion in distance on Windows Server:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Change-all-files-ownershipsr"><span class="nav-number">1.6.</span> <span class="nav-text">Change all files ownershipsr:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Command-in-Vim"><span class="nav-number">1.7.</span> <span class="nav-text">Command in Vim:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Replace-words-with-sed"><span class="nav-number">1.8.</span> <span class="nav-text">Replace words with sed:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Restart-Apache-gracefully"><span class="nav-number">1.9.</span> <span class="nav-text">Restart Apache gracefully:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Analyse-ports"><span class="nav-number">1.10.</span> <span class="nav-text">Analyse ports:</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -815,6 +712,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
 
   
 
@@ -830,6 +731,8 @@
 
   
 
+
+  
 
 
   
