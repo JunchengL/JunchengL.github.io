@@ -228,6 +228,23 @@
         
         
           
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+
+  </li>
+        
+        
+        
+          
           <li class="menu-item menu-item-tags">
 
     
@@ -239,6 +256,23 @@
     
 
     <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
 
   </li>
         
@@ -352,16 +386,46 @@
                 
               
 
-              <time title="Created: 2019-04-12 23:03:20 / Modified: 23:17:04" itemprop="dateCreated datePublished" datetime="2019-04-12T23:03:20+02:00">2019-04-12</time>
+              <time title="Created: 2019-04-12 23:03:20" itemprop="dateCreated datePublished" datetime="2019-04-12T23:03:20+02:00">2019-04-12</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2019-04-13 17:36:29" itemprop="dateModified" datetime="2019-04-13T17:36:29+02:00">2019-04-13</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -392,21 +456,16 @@
 
       
         
+          Some usefull commands in my work
+          <!--noindex-->
           
-            <h1 id="This-post-is-to-remind-me-of-some-usefull-commands-in-my-work"><a href="#This-post-is-to-remind-me-of-some-usefull-commands-in-my-work" class="headerlink" title="This post is to remind me of some usefull commands in my work."></a>This post is to remind me of some usefull commands in my work.</h1><h2 id="Disk-Usage-Analyse"><a href="#Disk-Usage-Analyse" class="headerlink" title="Disk Usage Analyse:"></a>Disk Usage Analyse:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hT</span><br></pre></td></tr></table></figure>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">du -sk ./* | sort -n</span><br></pre></td></tr></table></figure>
-<h2 id="Server-swap-to-max-capacity-and-need-to-free-swap"><a href="#Server-swap-to-max-capacity-and-need-to-free-swap" class="headerlink" title="Server swap to max capacity and need to free swap:"></a>Server swap to max capacity and need to free swap:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">swapoff -a &amp;&amp; swapon -a</span><br></pre></td></tr></table></figure>
-<h2 id="Show-files-in-order"><a href="#Show-files-in-order" class="headerlink" title="Show files in order:"></a>Show files in order:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ls -ltr</span><br></pre></td></tr></table></figure>
-<h2 id="Catch-key-words-with-grep-command"><a href="#Catch-key-words-with-grep-command" class="headerlink" title="Catch key words with grep command:"></a>Catch key words with grep command:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep -ri 'proxy-internet' --exclude-dir=wp-content/uploads *</span><br></pre></td></tr></table></figure>
-<h2 id="Connexion-in-distance-on-Windows-Server"><a href="#Connexion-in-distance-on-Windows-Server" class="headerlink" title="Connexion in distance on Windows Server:"></a>Connexion in distance on Windows Server:</h2><p>MSTSC</p>
-<h2 id="Change-all-files-ownershipsr"><a href="#Change-all-files-ownershipsr" class="headerlink" title="Change all files ownershipsr:"></a>Change all files ownershipsr:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown -R ljckk:ljckk *</span><br></pre></td></tr></table></figure>
-<h2 id="Command-in-Vim"><a href="#Command-in-Vim" class="headerlink" title="Command in Vim:"></a>Command in Vim:</h2><p>d G  -&gt;delete full page</p>
-<h2 id="Replace-words-with-sed"><a href="#Replace-words-with-sed" class="headerlink" title="Replace words with sed:"></a>Replace words with sed:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i -e "s/words_before_replacement/words_after_replacement/g" file.name</span><br></pre></td></tr></table></figure>
-<h2 id="Restart-Apache-gracefully"><a href="#Restart-Apache-gracefully" class="headerlink" title="Restart Apache gracefully:"></a>Restart Apache gracefully:</h2><p>/etc/init.d/httpd reload</p>
-<h2 id="Analyse-ports"><a href="#Analyse-ports" class="headerlink" title="Analyse ports:"></a>Analyse ports:</h2><p>port 80 is listened?<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -auntp| grep 80</span><br></pre></td></tr></table></figure></p>
-<p>test port 80 on localhost<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nc -vz localhost 80</span><br></pre></td></tr></table></figure></p>
-
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/04/12/Usefull-Commands/">
+                Read more &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
     </div>
@@ -506,16 +565,53 @@
                 
               
 
-              <time title="Created: 2019-04-12 22:32:05 / Modified: 22:32:54" itemprop="dateCreated datePublished" datetime="2019-04-12T22:32:05+02:00">2019-04-12</time>
+              <time title="Created: 2019-04-12 22:32:05" itemprop="dateCreated datePublished" datetime="2019-04-12T22:32:05+02:00">2019-04-12</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2019-04-13 17:35:47" itemprop="dateModified" datetime="2019-04-13T17:35:47+02:00">2019-04-13</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a></span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Hexo/Next/" itemprop="url" rel="index"><span itemprop="name">Next</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -546,10 +642,16 @@
 
       
         
+          How to Build a blog with Hexo and Github Pages
+          <!--noindex-->
           
-            <p>Happy To Build My Blog</p>
-
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/04/12/Blog-Construction-done/">
+                Read more &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
     </div>
@@ -640,7 +742,49 @@
               
 
               
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
               
             </nav>
           
@@ -786,8 +930,10 @@
   
     
     
+      
+    
   
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="true"></script>
 
 
 
